@@ -27,7 +27,7 @@ type Todo struct {
 }
 
 func main() {
-	sqldb, err := sql.Open("postgres", "user=keitasakurai password=04ec048k dbname=keitasakurai host=localhost port=5432 sslmode=disable")
+	sqldb, err := sql.Open("postgres", "user=keitasakurai password=pq384kg dbname=keitasakurai host=localhost port=5432 sslmode=disable")
 	if err != nil {
 		log.Fatal(err)
 	}
